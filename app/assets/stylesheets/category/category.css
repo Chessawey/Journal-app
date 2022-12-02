@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.body-home {
+  background-color: #a8dadc;
+  font-family: 'Solway', serif;
+}
+
+.my-journ {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+.nav-div {
+  background-color: #e5989b;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav-img {
+  height: 40px;
+  padding-right: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.main-img {
+  height: 40rem;
+  margin-left: 25rem;
+}
+
+.title-div {
+  margin-top: 3rem;
+}
+
+.main-title {
+  font-size: 5.5rem;
+  margin-left: 18rem;
+  letter-spacing: 6px;
+  color: #fff;
+}
+
+.sub-head {
+  font-size: 2rem;
+  margin-left: 30rem;
+  color: #fff;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.footer-div {
+  background-color: #e5989b;
+  height: 4rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

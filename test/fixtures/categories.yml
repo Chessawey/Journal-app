@@ -2,12 +2,6 @@
 
 one:
   name: MyString
-  last_name: MyString
-  string: MyString
-  age: 1
 
 two:
   name: MyString
-  last_name: MyString
-  string: MyString
-  age: 1
