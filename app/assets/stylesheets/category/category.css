@@ -19,7 +19,7 @@
 
 .nav-div {
   background-color: #e5989b;
-  height: 4rem;
+  height: 3rem;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -65,11 +65,98 @@
   text-transform: uppercase;
 }
 
+footer {
+  padding-top: 2.3rem;
+}
+
 .footer-div {
   background-color: #e5989b;
-  height: 4rem;
+  height: 3rem;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in-div {
+  background-color: #ffd97d;
+  height: 27rem;
+  width: 28rem;
+  margin-right: 12rem;
+  margin-top: 3rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.placeholder-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.5rem;
+}
+
+.placeholder-div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder-email {
+  height: 1.5rem;
+  width: 21rem;
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 8px 0;
+  font-family: 'Solway', serif;
+  font-weight: bold;
+}
+
+.placeholder-pass {
+  height: 1.5rem;
+  width: 21rem;
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 8px 0;
+  font-family: 'Solway', serif;
+  font-weight: bold;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.log-in-btn {
+  background-color: #a8dadc;
+  color: #343a40;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.log-in-btn:hover {
+  color: #fff;
+}
+
+.sign-up-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.sign-up {
+  color: #343a40;
+  text-transform: uppercase;
+}
+
+.sign-up:hover {
+  color: #fff;
 }
