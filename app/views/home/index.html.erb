@@ -1,0 +1,51 @@
+<body>
+  <div class="div-home">
+    <nav class="nav-home">
+      <%= image_tag "nav-icon.png", :class => "nav-home-img" %>
+      <p>My Journal</p>
+    </nav>
+    <div class="user-log-out">
+      <h3><%= current_user.email %></h3>
+      <%= button_to image_tag("log-out .png"), destroy_user_session_path, method: :delete %>
+      </div>
+  </div>
+  <div>
+    <div class="holder">
+      <div class="categ-div">
+        <%= image_tag "categories.png", :class => "categ-icon" %>
+        <p>Task Categories</p>
+      </div>
+      <div class="task-div">
+        <%= image_tag "task.png", :class => "task-icon" %>
+        <p>Tasks Today</p>
+      </div>
+    </div>
+    <div class="cat-holder">
+      <div class="school-cat">
+        <p>School</p>
+      </div>
+
+      <div class="work-cat">
+        <p>Work</p>
+      </div>
+    </div>
+
+    <div class="cat-holder2">
+      <div class="proj-cat">
+        <p>Project</p>
+      </div>
+
+      <div class="add-cat">
+        <div class="add-div">
+          <%= button_to image_tag("add-cat.png"), method: :create %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <%= image_tag "footer-img.png", :class => "footer-img" %>
+    </div>
+  </footer>
+</body>

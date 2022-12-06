@@ -1,0 +1,33 @@
+.sign-up-body {
+  background-color: #a8dadc;
+  display: flex;
+  justify-content: center;
+  font-family: 'Solway', serif;
+}
+
+.sign-up-page {
+  background-color: #e5989b;
+  color: #343a40;
+  height: 30rem;
+  width: 28rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px gray;
+  margin-top: 17rem;
+}
+
+
+.title-sign-up {
+ text-transform: uppercase;
+ display: flex;
+ justify-content: center;
+}
+
+
+.field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 20rem;
+}
+

@@ -1,0 +1,176 @@
+.div-home {
+  background-color: #e5989b;
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+.nav-home {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+.nav-home-img {
+  height: 30px;
+  padding-right: 1rem;
+}
+
+.user-log-out {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 3rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.user-log-out button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.user-log-out img {
+  height: 1.5rem;
+  align-items: center;
+}
+
+.holder {
+  display: flex;
+  gap: 2rem;
+}
+
+.categ-div {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 0.5rem;
+  color: #fff;
+  background-color: #6d6875;
+  height: 4rem;
+  width: 50vw;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.categ-icon {
+  height: 42px;
+  width: 40px;
+  margin-left: 1rem;
+}
+
+.task-div {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 0.5rem;
+  color: #fff;
+  background-color: #6d6875;
+  height: 4rem;
+  width: 50vw;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.cat-holder {
+  display: flex;
+  margin-left: 4rem;
+}
+
+.school-cat {
+  background-color: #e5989b;
+  color: #fff;
+  height: 20rem;
+  width: 22.7vw;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.school-cat p {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.work-cat {
+  background-color: #e5989b;
+  color: #fff;
+  height: 20rem;
+  width: 22.7vw;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.work-cat p {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cat-holder2 {
+  display: flex;
+  margin-left: 4rem;
+}
+
+.proj-cat {
+  background-color: #e5989b;
+  color: #fff;
+  height: 20rem;
+  width: 22.7vw;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.proj-cat p {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.add-cat {
+  background-color: #e5989b;
+  color: #fff;
+  height: 20rem;
+  width: 22.7vw;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.add-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.add-div img {
+  height: 60px;
+}
+
+.add-div button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-img {
+  height: 8.5rem;
+  margin-right: 2rem;
+}
