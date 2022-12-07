@@ -1,26 +1,62 @@
-<h2>Log in</h2>
-
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
-
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
-
-  <% if devise_mapping.rememberable? %>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
+<body class="body-home">
+  <div class="nav-div">
+    <div class="my-journ">
+      <%= image_tag "nav-icon.png", :class => "nav-img" %>
+      <p>My Journal</p>
     </div>
-  <% end %>
+    <nav class="nav-list">
+      <ul class="nav-list">
+        <li>About</li>
+        <li>Feature</li>
+        <li>Pricing</li>
+        <li>Blog</li>
+        <li>Support</li>
+      </ul>
+    </nav>
+    </div>
+</body>
 
-  <div class="actions">
-    <%= f.submit "Log in" %>
+<section>
+  <div>
+    <div class="title-div">
+      <h1 class="main-title">Do things in order.</h1>
+      <p class="sub-head">Be productive. Be organized.</p>
+    </div>
+    <div class="main-div">
+      <%= image_tag "main-img.png", :class => "main-img" %>
+
+      <div class="sign-in-div">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="placeholder-div">
+            <%= f.email_field :email, autofocus: true, placeholder: "Email", autocomplete: "email", class: "placeholder-email" %>
+          </div>
+        
+          <div class="placeholder-div1">
+            <%= f.password_field :password, placeholder: "Password", autocomplete: "current-password", class: "placeholder-pass" %>
+          </div>
+        
+          <% if devise_mapping.rememberable? %>
+            <div class="remember">
+              <%= f.check_box :remember_me %>
+              <%= f.label :remember_me %>
+            </div>
+          <% end %>
+        
+          <div class="btn-div">
+            <%= f.submit "Log in", class: "log-in-btn" %>
+          </div>
+        <% end %>
+        
+        <%= render "devise/shared/links", class: "links" %>
+        
+      </div>
+    </div>
   </div>
-<% end %>
+</section>
 
-<%= render "devise/shared/links" %>
+
+<footer>
+  <div class="footer-div">
+    <p>&copy 2022-2030 All rights reserved.</p>
+  </div>
+</footer>
